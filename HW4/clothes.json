@@ -1,0 +1,85 @@
+{
+    "clothes" : [
+      {
+        "code": "T0001",
+        "name": "เสื้อเชิ้ตผู้ชาย",
+        "description": "เสื้อเชิ้ตผู้ชาย สีพื้น เสื้อฮาวาย สไตล์เกาหลี ผ้าไหมอิตาลี",
+        "stock": 250,
+        "size": ["XL", "L", "M", "S"],
+        "color": ["แดง", "ดำ", "เขียว", "ฟ้า"],
+        "material": "ผ้าไหมอิตาลี",
+        "imageUrl": "https://img.lazcdn.com/g/p/f3fab4fe95bb3aba3b8c82b7645b84f6.jpg_360x360q75.jpg_.webp"
+      },
+      {
+        "code": "T0002",
+        "name": "เสื้อเชิ้ตเท่เท่",
+        "description": "เสื้อลำลองเสื้อเชิ้ตโอเว่อร์ไซส์",
+        "stock": 1049,
+        "size": ["L", "S"],
+        "color": ["ขาว"],
+        "material": "ผ้าฝ้าย",
+        "imageUrl": "https://st.bigc-cs.com/cdn-cgi/image/format=webp,quality=90/public/media/catalog/product/46/20/2000007855946/2000007855946_1-20230914103244-.jpg"
+      },
+      {
+        "code": "P0082",
+        "name": "เสื้อคอปก",
+        "description": "ทรงปก ชายเสื้อ เข้ารูป",
+        "stock": 60,
+        "size": ["XXL", "XL", "L", "M"],
+        "color": ["ดำ", "ขาว"],
+        "material": "ผ้าเส้นใยอะชิเตท",
+        "imageUrl": "https://image.made-in-china.com/202f0j00ZPpbMFGfrsqS/Black-Popular-Silk-Cotton-Performance-Polo-Shirt-Custom-Cotton-Corporate-Clothing-Customized-Men-Embroidered-Golf-Work-Wear-Tshirt.webp"
+      },
+      {
+        "code": "Y0082",
+        "name": "เสื้อยืดแฟชั่น",
+        "description": "แขนสั้น เข้ารูป",
+        "stock": 900,
+        "size": ["2XL", "XL", "L"],
+        "color": ["โอรส", "กรม", "เทา", "ฟ้า", "ขาว"],
+        "material": "โพลีเอสเตอร์",
+        "imageUrl": "https://ae01.alicdn.com/kf/S1857986783434bd193836843ee138f66z.jpg_640x640Q90.jpg_.webp"
+      },
+      {
+        "code": "Y0076",
+        "name": "กางเกงขาสั้น",
+        "description": "กางเกงขาสั้นใส่สบาย เป็นกางเกงแฟชั่น",
+        "stock": 250,
+        "size": ["XL", "L", "M", "S"],
+        "color": ["ดำ", "เทา", "ขาว"],
+        "material": "ผ้าไหม",
+        "imageUrl": "https://mrmakershop.com/wp-content/uploads/2017/03/Sp.003-%E0%B8%81%E0%B8%B2%E0%B8%87%E0%B9%80%E0%B8%81%E0%B8%87%E0%B8%82%E0%B8%B2%E0%B8%AA%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%8A%E0%B8%B2%E0%B8%A2-%E0%B8%9C%E0%B9%89%E0%B8%B2%E0%B8%8A%E0%B8%B4%E0%B9%82%E0%B8%99-%E0%B8%AA%E0%B8%B5%E0%B9%80%E0%B8%9A%E0%B8%88%E0%B9%80%E0%B8%82%E0%B9%89%E0%B8%A1-%E0%B8%9C%E0%B9%89%E0%B8%B2-800x800.jpg"
+      },
+      {
+        "code": "Y0072",
+        "name": "กางเกงขายาว",
+        "description": "กางเกงขายาวใส่สบาย เป็นกางเกงแฟชั่น",
+        "stock": 200,
+        "size": ["XL", "L", "M", "S"],
+        "color": ["ดำ", "เทา", "ขาว"],
+        "material": "ผ้าไนลอน",
+        "imageUrl": "https://www.bluebearuniform.com/wp-content/uploads/2021/01/pict_17RP04BK1F30.png"
+      },
+      {
+        "code": "G0052",
+        "name": "กระโปรงสั้น",
+        "description": "กระโปรงสั้นใส่สบาย เป็นประโปรงแฟชั่นเกาหลี",
+        "stock": 250,
+        "size": ["L", "M", "S"],
+        "color": ["ดำ", "ชมพู", "ขาว"],
+        "material": "ผ้าไหม",
+        "imageUrl": "https://ae01.alicdn.com/kf/S67b37026f2c8437e9b0e61b512292691m.jpg_640x640Q90.jpg_.webp"
+      },
+      {
+        "code": "G0055",
+        "name": "กระโปรงยาว",
+        "description": "กางเกงขาสั้นใส่สบาย เป็นกระโปรงยีนแฟชั่น",
+        "stock": 250,
+        "size": ["L", "M"],
+        "color": ["ดำ", "ขาว", "กรม"],
+        "material": "ผ้าไนลอน",
+        "imageUrl": "https://inwfile.com/s-a/udm69b.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,106 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+h2 {
+    width: 100%;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.product-card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%; /* ปรับให้รูปเต็มความกว้างของ card */
+    height: auto; /* ให้รักษาอัตราส่วน */
+    max-width: 150px; /* จำกัดความกว้างสูงสุดของรูป */
+    margin: 0 auto 10px; /* จัดกึ่งกลางและเพิ่มช่องว่างด้านล่าง */
+}
+
+.product-card h3 {
+    margin-top: 0;
+}
+.electronic-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.electronic-card {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.electronic-card img {
+    width: 100%; /* ปรับให้รูปเต็มความกว้างของ card */
+    height: auto; /* ให้รักษาอัตราส่วน */
+    max-width: 150px; /* จำกัดความกว้างสูงสุดของรูป */
+    margin: 0 auto 10px; /* จัดกึ่งกลางและเพิ่มช่องว่างด้านล่าง */
+}
+
+.electronic-card h3 {
+    margin-top: 0;
+}
+
+.product-detail {
+    margin-top: 20px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+}
+
+.product-detail img {
+    max-width: 300px; /* จำกัดความกว้างสูงสุดของรูป */
+    height: auto; /* ให้รักษาอัตราส่วน */
+    margin-bottom: 20px; /* เพิ่มช่องว่างด้านล่าง */
+}
+
+.product-detail h2 {
+    margin-top: 0;
+}

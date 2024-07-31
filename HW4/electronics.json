@@ -1,0 +1,36 @@
+{
+    "electronics": [
+        {
+            "code": "E001",
+            "name": "โทรทัศน์ 4K",
+            "description": "โทรทัศน์ 4K ขนาด 55 นิ้ว พร้อมระบบสมาร์ททีวี",
+            "stock": 100,
+            "specs": "55 นิ้ว, 4K UHD, สมาร์ททีวี",
+            "imageUrl": "https://media-cdn.bnn.in.th/214776/Realme-TV-43-4K-RMV2004-4-square_medium.jpg"
+        },
+        {
+            "code": "E002",
+            "name": "เครื่องเล่นวิดีโอ",
+            "description": "เครื่องเล่นเกมพกพา",
+            "stock": 50,
+            "specs": "โปรเซสเซอร์ AMD Ryzen Z1 Extreme, กราฟิก AMD RNDA™, 1600p, 144Hz",
+            "imageUrl": "https://spin9.me/wp-content/uploads/2024/01/unnamed.png"
+        },
+        {
+            "code": "E003",
+            "name": "คอมพิวเตอร์",
+            "description": "คอมประกอบ การเล่นเกมส์ควบคู่กับการทำงาน",
+            "stock": 100,
+            "specs": "CPU: Intel Core I5-3470, RAM: DDR3 8GB, RX470 8GB",
+            "imageUrl": "https://img.lazcdn.com/g/p/e664a058814b5139588db787858fc68f.jpg_720x720q80.jpg"
+        },
+        {
+            "code": "E004",
+            "name": "โทรศัพท์มือถือ",
+            "description": "โทรศัพท์มือถือสมาร์ทโฟนหน้าจอ 6.5 นิ้ว",
+            "stock": 200,
+            "specs": "6.5 นิ้ว, 128GB, กล้อง 48MP",
+            "imageUrl": "https://images.samsung.com/is/image/samsung/assets/th/explore/entertainment/how-to-choose-mobile-phones/galaxya535gawesomebulemobile.jpg?$720_N_JPG$"
+        }
+    ]
+}
