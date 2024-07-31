@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ใบสมัครขึ้นทะเบียนนักกีฬาสังกัดสมาคมกีฬาจังหวัด</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image/sport.jpg">
+        </div>
+        <h1>ใบสมัคร</h1>
+        <h3>ขึ้นทะเบียนนักกีฬาสังกัดสมาคมกีฬาจังหวัด</h3>
+        <div class="image">`
+            <input type="file" id="imgProfile" required>
+            <label for="image"></label>
+            <p>คลิกเพื่ออัปโหลดรูปภาพ</P>
+        </div>
+        <span class="form-section">
+            <h2>ประเภทที่ขอขึ้นทะเบียน</h2>
+            <span class="document-list">
+                <input type="checkbox" id="BirthCertificate" name="registrationType" value="birthCertificate" required>
+                <label for="byBirthCertificate">ตามสูติบัตร</label>
+            </span>
+            <span class="document-list">
+                <input type="checkbox" id="byOccupation" name="registrationType" value="occupation" required>
+                <label for="byOccupation">ตามสถานประกอบอาชีพ</label>
+            </span>
+            <span class="document-list">
+                <input type="checkbox" id="byEducation" name="registrationType" value="education" required>
+                <label for="byEducation">ตามสถานศึกษา</label>
+            </span>
+        </span>
+        <div class="form-section">
+            <B>เรียน นายกสมาคมกีฬาจังหวัดมุกดาหาร</B>
+            <form action="#">
+                <span class="input-group">
+                    <label for="name">ชื่อ:</label>
+                    <input type="text" id="name" name="name" required>
+                </span>
+                <span class="input-group">
+                    <label for="surname">นามสกุล:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </span>
+                <span class="input-group">
+                    <label for="gender">เพศ:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">ชาย</option>
+                        <option value="female">หญิง</option>
+                    </select>
+                </span>
+                <span class="input-group">
+                    <label for="birthdate">วันเกิด:</label>
+                    <input type="date" id="birthdate" name="birthdate" required>
+            </span>
+            <div></div>
+                <span class="input-group">
+                    <label for="province">จังหวัดที่เกิด:</label>
+                    <input type="text" id="province" name="province" required>
+            </span>
+                <span class="input-group">
+                    <label for="idNumber">เลขประจำตัวประชาชน:</label>
+                    <input type="number" id="idNumber" name="idNumber" required>
+                </span>
+            </form>
+        </div>
+ 
+        <span class="form-section">
+            <B>ขอขึ้นทะเบียนเป็นนักกีฬาจัดหวัดมุกดาหาร</B> เพื่อเข้าแข่งขันกีฬาแห่งชาติ/กีฬาเยาวชนแห่งชาติ 
+            <div>
+                <B>ชนิดกีฬา</B>
+                <input type="text" id="sport" name="sport" required>
+            </div>
+        </span>
+ 
+        <div class="form-section">
+            <h2>หลักฐานประกอบใบสมัคร</h2>
+        <div class="radio-group">
+        <h4><input type="radio" id="byOccupation" name="registrationType" value="occupation" required>
+                <label for="Occupation">ตามสถานประกอบอาชีพ</label></h4>
+            </div>
+            <ul class="document-list">
+                <li>
+                    <input type="checkbox" id="birthCertificate" name="documents[]" value="birthCertificate">
+                    <label for="birthCertificate">สำเนาสูติบัตร</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="idCard" name="documents[]" value="idCard">
+                    <label for="idCard">สำเนาบัตรประชาชน/ข้าราชการ</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="houseRegistration" name="documents[]" value="houseRegistration">
+                    <label for="houseRegistration">สำเนาทะเบียนบ้านที่อยู่ปัจจุบัน</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="certificateHeadOfUnit" name="documents[]" value="certificateHeadOfUnit">
+                    <label for="certificateHeadOfUnit">ใบรับรองจากผู้บังคับบัญชาระดับ ผอ.กองขึ้นไป</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="certificateOfActualWorkFromTheEstablishment" name="documents[]" value="certificateOfActualWorkFromTheEstablishment">
+                    <label for="certificateOfActualWorkFromTheEstablishment">หนังสือรับรองการทำงานจริงจากสถานประกอบการ</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="certificateOfActualWorkFromThePresidentOfTheProvincialSportsAssociation" name="documents[]" value="certificateOfActualWorkFromThePresidentOfTheProvincialSportsAssociation">
+                    <label for="certificateOfActualWorkFromThePresidentOfTheProvincialSportsAssociation">หนังสือรับรองการทำงานจริงจากนายกสมาคมกีฬาจังหวัด</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="certificateOfActualWorkFromTheProvincialSATCenter" name="documents[]" value="certificateOfActualWorkFromTheProvincialSATCenter">
+                    <label for="certificateOfActualWorkFromTheProvincialSATCenter">หนังสือรับรองการทำงานจริงจากศูนย์ กกท.จังหวัด</label>
+                </li>
+                </div>
+ 
+                <div class="form-section">
+                    <div class="radio-group">
+                        <h4><input type="radio" id="byOccupation" name="registrationType" value="occupation" required>
+                        <label for="byOccupation">ตามสถานศึกษา</label></h4>
+                    </div>
+                    <ul class="document-list">
+                        <li>
+                            <input type="checkbox" id="birthCertificate" name="documents[]" value="birthCertificate">
+                            <label for="birthCertificate">สำเนาสูติบัตร</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="idCard" name="documents[]" value="idCard">
+                            <label for="idCard">สำเนาบัตรประชาชน</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="houseRegistration" name="documents[]" value="houseRegistration">
+                            <label for="houseRegistration">สำเนาทะเบียนบ้านที่อยู่ปัจจุบัน</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="certificateFromTheEducationalInstitution" name="documents[]" value="certificateFromTheEducationalInstitution">
+                            <label for="certificateFromTheEducationalInstitution">ใบรับรองจากสถานศึกษาฉบับจริง</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="copyOfEducationalRecords" name="documents[]" value="copyOfEducationalRecords">
+                            <label for="copyOfEducationalRecords">สำเนาใบระเบียนการศึกษา</label>
+                        </li>
+                        </div>
+ 
+                        <div class="form-section">
+                            <div class="radio-group">
+                                <h4><input type="radio" id="byOccupation" name="registrationType" value="occupation" required>
+                                <label for="byOccupation">ตามสูติบัตร</label></h4>
+                            </div>
+                            <ul class="document-list">
+                                <li>
+                                    <input type="checkbox" id="birthCertificate" name="documents[]" value="birthCertificate">
+                                    <label for="birthCertificate">สำเนาสูติบัตร</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="idCard" name="documents[]" value="idCard">
+                                    <label for="idCard">สำเนาบัตรประชาชน</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="houseRegistration" name="documents[]" value="houseRegistration">
+                                    <label for="houseRegistration">สำเนาทะเบียนบ้านที่อยู่ปัจจุบัน</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="certificateFromTheEducationalInstitution" name="documents[]" value="certificateFromTheEducationalInstitution">
+                                    <label for="certificateFromTheEducationalInstitution">ใบรับรองจากสถานศึกษาฉบับจริง</label>
+                                </li>
+                            </div>
+ 
+                                <div class="form-section">
+                                    <div class="radio-group">
+                                        <h4><input type="radio" id="byOccupation" name="registrationType" value="occupation" required>
+                                        <label for="byOccupation">อื่น ๆ (ระบุ)</label></h4>
+                                    </div>
+                                    <ul class="document-list">
+                                        <li>
+                                            <input type="checkbox" id="birthCertificate" >
+                                            <label for="birthCertificate">แบบคำขอมีบัตรประจำตัวขึ้นทะเบียนนักกีฬาสังกัดสมาคมจังหัด</label>
+                                        </li>
+                                        <li>
+                                            <input type="checkbox" id="birthCertificate" >
+                                            <label for="birthCertificate">แบบคำขอย้ายสังกัดสมาคมกีฬาจังหัด</label>
+                                        </li>
+                                    </div>
+ 
+ 
+                                    <div class="form-section">
+                                        <h4>ประวัติผู้สมัคร (โปรดกรอกรายละเอียด)</h4>
+                                        <h4><ins>ที่อยู่ปัจจุบัน</ins></h4>
+                                        <form action="#">
+                                            <div class="input-group">
+                                                <label for="houseNumber">บ้านเลขที่</label>
+                                                <input type="number" id="houseNumber" required>
+                                                <label for="group">หมู่</label>
+                                                <input type="number" id="group" required>
+                                                <label for="road">ถนน</label>
+                                                <input type="text" id="road" required>
+                                                <div class="input-group">
+                                                <label for="canton">ตำบล/แขวง</label>
+                                                <input type="text" id="canton" required>
+                                                <label for="district">อำเภอ/เขต</label>
+                                                <input type="text" id="district" required>
+                                            <div class="input-group">
+                                                <label for="province">จังหวัด</label>
+                                                <input type="text" id="province" required>
+                                                <label for="zipcode">รหัสไปรษณีย์</label>
+                                                <input type="number" id="zipcode" required>
+                                                <label for="telephonenumber">โทรศัพท์</label>
+                                                <input type="number" id="telephonenumber" required>
+                                            </div>
+                                        </div>
+ 
+ 
+                                            <h4><ins>ที่อยู่สถานศึกษา ปัจจุบัน</ins></h4>
+                                            <form action="#">
+                                            <div class="input-group">
+                                                <label for="Studying">กำลังศึกษา</label>
+                                                <input type="text" id="Studying" required>
+                                                <label for="Nameofeducationalinstitution">ชื่อสถานศึกษา</label>
+                                                <input type="text" id="Nameofeducationalinstitution" required>
+                                                <label for="houseNumber">เลขที่</label>
+                                                <input type="number" id="houseNumber" required>
+                                                <div class="input-group">
+                                                <label for="road">ถนน</label>
+                                                <input type="text" id="road" required>
+                                                <label for="canton">ตำบล/แขวง</label>
+                                                <input type="text" id="canton" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="district">อำเภอ/เขต</label>
+                                                <input type="text" id="district" required>
+                                                <label for="province">จังหวัด</label>
+                                                <input type="text" id="province" required>
+                                                <label for="zipcode">รหัสไปรษณีย์</label>
+                                                <input type="number" id="zipcode" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="telephonenumber">โทรศัพท์</label>
+                                                <input type="number" id="telephonenumber" required>
+                                            </div>
+                                            <h4><ins>ที่อยู่สถานประกอบอาชีพปัจจุบัน</ins></h4>
+                                            <form action="#">
+                                            <div class="input-group">
+                                                <label for="workingtime">ระยะเวลาในการทำงาน</label>
+                                                <input type="number" id="workingtime" required>
+                                                <label for="year">ปี</label>
+                                                <input type="number" id="year" required>
+                                                <label for="month">เดือน</label>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="name">ชื่อหน่วยงาน</label>
+                                                <input type="text" id="name" required>
+                                                <label for="houseNumber">เลขที่</label>
+                                                <input type="number" id="houseNumber" required>
+                                                <label for="road">ถนน</label>
+                                                <input type="text" id="road" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="canton">ตำบล/แขวง</label>
+                                                <input type="text" id="canton" required>
+                                                <label for="district">อำเภอ/เขต</label>
+                                                <input type="text" id="district" required>
+                                                <label for="province">จังหวัด</label>
+                                                <input type="text" id="province" required>
+                                                <label for="zipcode">รหัสไปรษณีย์</label>
+                                                <input type="number" id="zipcode" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="telephonenumber">โทรศัพท์</label>
+                                                <input type="number" id="telephonenumber" required>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="name">ลงชื่อ</label>
+                                                <input type="text" id="name" required>
+                                                <label for="name">ผู้สมัคร</label>
+                                            </div>
+                                            <div class="input-group">
+                                                <label for="date">วัน/เดือน/ปี</label>
+                                                <input type="date" id="date" required>
+                                            </div>
+                                            <hr width="n" align="center" size="3" noshade color="สี">
+ 
+                                            <h4>สำหรับเจ้าหน้าที่</h4>
+                                            <div class="officer">
+                                                <div class="input-group">
+                                                    <label for="name">ลงชื่อ</label>
+                                                    <input type="text" id="name" required>
+                                                    <label for="name"></label>
+                                                    <br>
+                                                    <b>ผู้อำนวยการศูนย์ กกท. จังหวัดมุกดาหาร</b>
+                                                    <div>
+                                                        <label for="date">วัน/เดือน/ปี</label>
+                                                        <input type="date" id="date" required>
+                                                    </div>
+                                                    </div>
+                                                <div class="input-group">
+                                                    <label for="name">ลงชื่อ</label>
+                                                    <input type="text" id="name" required>
+                                                    <label for="name"></label>
+                                                    <br>
+                                                        <b>นายกสมาคมกีฬาจังหวัดมุกดาหาร</b>
+                                                        <br>
+                                                        <label for="date">วัน/เดือน/ปี</label>
+                                                        <input type="date" id="date" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                        </div>
+                        </div>
+            </body>
+            </html>
+ 
