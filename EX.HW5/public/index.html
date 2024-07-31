@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Resistor Value</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>โปรแกรมคำนวณค่าตัวต้านทานไฟฟ้า</h1>
+    <div id="resistor-type">
+        <label for="type">เลือกจำนวนแถบสี:</label>
+        <select id="type">
+            <option value="4">4 แถบ</option>
+            <option value="5">5 แถบ</option>
+            <option value="6">6 แถบ</option>
+        </select>
+    </div>
+    <div id="resistor-input">
+        <div id="band-inputs"></div>
+        <button onclick="calculateResistor()">คำนวณ</button>
+    </div>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
