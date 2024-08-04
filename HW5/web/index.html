@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>คำนวณค่าresistor</title>
+</head>
+<body>
+    <h1>คำนวณค่าresistor</h1>
+    <div id="color-select">
+        <label for="barCount">เลือกจำนวน แถบสีของตัวต้านทาน</label>
+        <select id="barCount" name="barCount" onchange="updateBarSelectors()">
+            <option value="4">4 bars</option>
+            <option value="5">5 bars</option>
+            <option value="6">6 bars</option>
+        </select>
+    </div>
+    <div class="color-select" id="bar"></div>
+    <button onclick="calResistor()">คำนวณ</button>
+    <div id="result"></div>
+    <script src="calculate.js"></script>
+</body>
+</html>
